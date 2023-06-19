@@ -1,0 +1,69 @@
+roles:
+  alertmanager:
+    icon_emoji: alertmanager
+    username: AlertManager
+  cloudwatch:
+    icon_emoji: cloudwatch
+    username: AWS CloudWatch
+  cx:
+    icon_emoji: cx-most-used-emoji2
+    username: CX
+  director:
+    icon_emoji: businesscat
+    username: Director
+  firedrill: &firedrill
+    icon_emoji: information_source
+    username: Firedrill
+  fd: *firedrill
+  hosting:
+    icon_emoji: server2
+    username: Hosting
+  ic:
+    icon_emoji: ic
+    username: Incident Commander
+  info:
+    icon_emoji: information_source
+    username: Info
+  infra:
+    icon_emoji: infra
+    username: Infra
+  log: &log
+    icon_emoji: log
+    username: LogLine
+  logline: *log
+  logs: *log
+  nagios:
+    icon_emoji: warning
+    username: Nagios
+  networks:
+    icon_emoji: wifi-5092
+    username: Networks
+  pagerduty: &pagerduty
+    icon_emoji: pager-duty
+    username: PagerDuty
+  pd: *pagerduty
+  prodops: &prodops
+    icon_emoji: information_source
+    username: ProdOps
+  techops: *prodops
+  techdesk: *prodops
+  secops: &secops
+    icon_emoji: bouncer
+    username: SecOps
+  security: *secops
+  slm: &slm
+    icon_emoji: slm
+    username: SLM
+  sla: *slm
+  sd: *prodops
+  servicedesk: *prodops
+  trader: &trader
+    icon_emoji: trading-general
+    username: Trading
+  trading: *trader
+  twitter: &twitter
+    icon_emoji: twitter
+    username: Twitter
+  warn: &warn
+    icon_emoji: twitter
+    username: Twitter
